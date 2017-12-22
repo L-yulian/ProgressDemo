@@ -13,6 +13,7 @@
 		FEBD0A7A1FECCBF900D70E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBD0A791FECCBF900D70E62 /* Assets.xcassets */; };
 		FEBD0A7D1FECCBF900D70E62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBD0A7B1FECCBF900D70E62 /* LaunchScreen.storyboard */; };
 		FEBD0A801FECCBF900D70E62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBD0A7F1FECCBF900D70E62 /* main.m */; };
+		FEBD0A8A1FECCC4F00D70E62 /* CycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBD0A881FECCC4E00D70E62 /* CycleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FEBD0A7C1FECCBF900D70E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEBD0A7E1FECCBF900D70E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEBD0A7F1FECCBF900D70E62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEBD0A881FECCC4E00D70E62 /* CycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleView.m; sourceTree = "<group>"; };
+		FEBD0A891FECCC4E00D70E62 /* CycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		FEBD0A6F1FECCBF900D70E62 /* ProgressDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FEBD0A871FECCC3F00D70E62 /* CycleView */,
 				FEBD0A701FECCBF900D70E62 /* AppDelegate.h */,
 				FEBD0A711FECCBF900D70E62 /* AppDelegate.m */,
 				FEBD0A731FECCBF900D70E62 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				FEBD0A7F1FECCBF900D70E62 /* main.m */,
 			);
 			path = ProgressDemo;
+			sourceTree = "<group>";
+		};
+		FEBD0A871FECCC3F00D70E62 /* CycleView */ = {
+			isa = PBXGroup;
+			children = (
+				FEBD0A891FECCC4E00D70E62 /* CycleView.h */,
+				FEBD0A881FECCC4E00D70E62 /* CycleView.m */,
+			);
+			path = CycleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEBD0A751FECCBF900D70E62 /* ViewController.m in Sources */,
+				FEBD0A8A1FECCC4F00D70E62 /* CycleView.m in Sources */,
 				FEBD0A801FECCBF900D70E62 /* main.m in Sources */,
 				FEBD0A721FECCBF900D70E62 /* AppDelegate.m in Sources */,
 			);
